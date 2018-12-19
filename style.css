@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+table {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+
+table,td {
+    border: solid black 2px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 2px;
+}
+
+.binary-row {
+    background-color: #d4cece; 
+    
+}
